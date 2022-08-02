@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    position: relative;
+}
+
+.imgs-div{
+    width: 60%;
+    position:relative;
+    background-image: url(./images/backcover.svg);
+    background-repeat: no-repeat;
+    background:cover;
+    display: inline-flex;
+    background-position:center;
+}
+
+
+
+.main.div{
+    width: 400px;
+    height: 100vh;
+    position: relative;
+    
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    text-align: center;
+    position:relative;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.nav-items .nav-item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+.intro-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 120px;
+    
+  }
+
+  .left-section{
+    position: relative;
+    margin-top: 16%;
+    font-size: 20px;
+    justify-content: space-between;
+  }
+
+  .left-section h1{
+    color: hsl(219, 71%, 50%);
+    bottom: 4%;
+   
+  }
+
+  .vector-dot{
+    position: relative;
+    width: 25px;
+    top: 17%;
+    right: 110px;
+
+  }
+
+  .intro-img{
+    position: relative;
+    top: 10%;
+     right: 250px;
+  }
+
+  .vector-img{
+    position: relative;
+    width: 150px;
+    top: 22%;
+    right: 5%;
+  }
+
+  .signin-btn{
+    width: 130px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid ;
+    color:#ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; 
+    font-size: 20px;
+
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+    
+  }
+
+  .learn-more-btn{
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid ;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color:#ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; 
+    font-size: 20px;
+    top: 4%;
+  }
+
+
+ 
+
+
+  
+
+
